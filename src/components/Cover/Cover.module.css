@@ -1,0 +1,24 @@
+.Cover{
+    height: 100vh;
+    /* background-image: url("https://github.com/Abuzariii/IUB-Science-Promotion-Society/blob/main/src/images/IMG_2897.JPG?raw=true");
+    position: relative; */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 2%, rgba(17, 17, 17)),
+        url("https://github.com/Abuzariii/IUB-Science-Promotion-Society/blob/main/src/images/IMG_2897.JPG?raw=true");
+    background-size: 100%;
+}
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.l1{
+    height: 90px;
+}
+
+
+/* Media Queries */
+@media(max-width:800px) {
+    .l1{
+        height: 80px;
+    }
+}
