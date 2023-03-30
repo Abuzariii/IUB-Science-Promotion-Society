@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
 .Cover{
     height: 100vh;
     background-image: url("https://raw.githubusercontent.com/Abuzariii/IUB-Science-Promotion-Society/main/src/images/cover.jpg");
@@ -11,11 +14,40 @@
 .l1{
     height: 90px;
 }
+.title{
+    width: 55%;
+    position: relative;
+    top: 20%;
+    left: 25%;
+    
+}
+.t1{
+    color: white;
+    font-size: 13rem;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
 
 
 /* Media Queries */
-@media(max-width:800px) {
-    .l1{
-        height: 80px;
+@media(max-width:1400px) {
+    .title{
+        width: 70%;
+        left: 20%;
+    }
+}
+@media(max-width:1200px) {
+    .title{
+        left: 10%;
+        width: 80%;
+    }
+}
+@media(max-width:1000px) {
+    .title{
+        left: 5%;
+        top: 10%;
+        width: 90%;
     }
 }
