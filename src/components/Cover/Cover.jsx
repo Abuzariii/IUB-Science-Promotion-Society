@@ -20,9 +20,16 @@ export default function Cover() {
         />
       </div>
 
-      <motion.div className={classes.title}>
-        <h1 className={classes.t1}>IUB </h1>
-        <h1 className={classes.t1}>Science Promotion Society.</h1>
+      <div className={classes.title}>
+        <motion.div
+          initial={{ x: -150, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 1.8, ease: "easeOut", delay: 0.3 }}
+        >
+          <h1 className={classes.t1}>IUB </h1>
+          <h1 className={classes.t1}>Science Promotion Society.</h1>
+        </motion.div>
+
         <br />
         <br />
         <TypeWriterEffect
@@ -43,7 +50,7 @@ export default function Cover() {
           multiTextDelay={1000}
           typeSpeed={30}
         />
-      </motion.div>
+      </div>
     </div>
   );
 }

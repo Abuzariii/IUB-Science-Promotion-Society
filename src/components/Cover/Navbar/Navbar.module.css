@@ -1,10 +1,15 @@
-.Navbar{
+.mainDiv{
     width: 43%;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(24, 19, 19, 0.5);
+    background-color: rgba(89, 87, 87, 0.5);
     border-radius: 4rem;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 .item{
     margin-left: 45px;
@@ -36,13 +41,13 @@
     }
 }
 @media(max-width:800px){
-    .Navbar{
+    .mainDiv{
         margin-top: 0;
         border-radius: 1rem;
     }
 }
 @media(max-width:600px){
-    .Navbar{
+    .mainDiv{
         width: 70%;
     }
 }
