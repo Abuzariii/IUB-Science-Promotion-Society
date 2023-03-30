@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+
+.coreTeam  {
+    background-color: rgb(50, 54, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 8rem;
+}
+
+.coreTeam >h1 {
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.5rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.coreTeam >div {
+    max-height: 20rem;
+    display: flex;
+    overflow-x: auto;
+    width: 97vw;
+}
+
+.coreTeam >div::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.coreTeam >div>div {
+    min-width: 18rem;
+    height: 20rem;
+    background-color: rgb(255, 255, 255);
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    transition: opacity 0.3s ease-in-out;
+}
+.coreTeam>div>div:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.ct1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/ammar.jpg");
+    background-size: 120%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.ct2{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/umar.jpg");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.ct3{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/atif.jpg");
+    background-size: 120%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.ct4{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/iman.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ct5{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/abuzar.jpg");
+    background-size: 120%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.ct6{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/rashid.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ct7{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/shaiza.jpg");
+    background-size: 120%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.ct8{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)),
+        url("../../images/Cabinet/bakh.jpg");
+    background-size: 120%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.ct9{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0, 0)),
+        url("../../images/Cabinet/humna.jpg");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+/* Media Queries */
+@media(max-width:1250px) {
+    .coreTeam{
+        padding-left: 1rem;
+    }
+}
+
+@media(max-width:600px) {
+    .coreTeam {
+            padding-left: 15px;
+        }
+    .coreTeam >h1 {
+        font-size: 1.8rem;
+    }
+
+    .coreTeam >div>div {
+        margin-right: 1rem;
+    }
+}
