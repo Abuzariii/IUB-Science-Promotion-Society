@@ -8,12 +8,17 @@ function NavBar() {
     <Navbar bg="dak" expand="lg" className={classes.Navbar}>
       <Container>
         <Nav className="me-auto">
-          <Nav.Link href="https://www.iub.edu.pk/" className={classes.item}>
+          <Nav.Link
+            href="https://www.iub.edu.pk/"
+            className={classes.item}
+            style={{ color: "white" }}
+          >
             The IUB
           </Nav.Link>
           <Nav.Link
             href="https://web.facebook.com/dsaiubpk"
             className={classes.item}
+            style={{ color: "white" }}
           >
             DSA
           </Nav.Link>
@@ -22,12 +27,17 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="https://www.iub.edu.pk/" className={classes.item}>
+            <Nav.Link
+              href="https://www.iub.edu.pk/"
+              className={classes.item}
+              style={{ color: "white" }}
+            >
               About
             </Nav.Link>
             <Nav.Link
               href="https://web.facebook.com/dsaiubpk"
               className={classes.item}
+              style={{ color: "white" }}
             >
               Contact Us
             </Nav.Link>

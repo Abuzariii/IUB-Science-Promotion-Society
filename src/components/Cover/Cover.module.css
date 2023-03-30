@@ -1,9 +1,6 @@
 .Cover{
     height: 100vh;
-    /* background-image: url("https://github.com/Abuzariii/IUB-Science-Promotion-Society/blob/main/src/images/IMG_2897.JPG?raw=true");
-    position: relative; */
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 2%, rgba(17, 17, 17)),
-        url("https://github.com/Abuzariii/IUB-Science-Promotion-Society/blob/main/src/images/IMG_2897.JPG?raw=true");
+    background-image: url("https://raw.githubusercontent.com/Abuzariii/IUB-Science-Promotion-Society/main/src/images/cover.jpg");
     background-size: 100%;
 }
 .logos{
