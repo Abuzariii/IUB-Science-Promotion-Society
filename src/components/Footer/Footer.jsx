@@ -1,25 +1,30 @@
 import classes from "./Footer.module.css";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 export default function Footer() {
   return (
     <footer className={classes.footer}>
-      <div className={classes.div1}>
-        <label>Bahawalpur, Pakistan.</label>
+      <div className={classes.logoDiv}></div>
+      <div className={classes.iconsDiv}>
+        <a
+          href="https://www.facebook.com/Iubsps"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsFacebook color="white" size="25px" />
+        </a>
+        <a
+          href="https://www.instagram.com/iubsps/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsInstagram color="white" size="25px" />
+        </a>
+        <a href="https://twitter.com/iubsps" target="_blank" rel="noreferrer">
+          <BsTwitter color="white" size="25px" />
+        </a>
       </div>
-      <div className={classes.div2}>
-        <div>
-          <label>About</label>
-          <label>Advertising</label>
-          <label>Licenses</label>
-          <label>Business</label>
-          <label className={classes.safety}>Safety guidelines</label>
-        </div>
-        <div>
-          <label>Privacy</label>
-          <label>Terms</label>
-          <label>Settings</label>
-        </div>
-      </div>
+      <p>IUB Science Promotion Society &copy; 2023</p>
     </footer>
   );
 }

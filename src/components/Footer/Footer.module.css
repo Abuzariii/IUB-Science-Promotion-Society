@@ -1,82 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lilita+One&family=M+PLUS+2:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
-
 .footer {
-    height: 18vh;
+    height: 70vh;
     width: 100%;
-    background-color: rgb(248, 249, 250);
+    background-color: rgb(35, 37, 48);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    color: rgb(22, 21, 21, 0.6);
-    font-size: 1rem;
-}
-
-.footer label:hover {
-    cursor: pointer;
-}
-
-.div1 {
-    border-bottom: 1px solid rgb(74, 72, 72, 0.2);
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-    height: 50%;
 }
-
-.div1 label {
-    margin: 1vw;
+.logoDiv{
+    background-position: center;
+    width: 20%;
+    height: 30vh;
+    background-image: url("../../images/Logos/fotor.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
-
-.div2 {
+.iconsDiv{
+    width: 200px;
+    height: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 50%;
 }
-
-.div2 div {
-    margin: 1rem;
+.footer > p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    letter-spacing: 1px;
 }
-
-.div2 label {
-    margin-right: 1vw;
-}
-
-/* Media Queries */
 @media(max-width:800px) {
-    .footer {
-        height: 22vh;
-        font-size: 0.9rem;
-    }
-
-    .div1 {
-        height: 30%;
-    }
-
-    .div1 label {
-        margin-left: 2vw;
-    }
-
-    .div2 {
-        display: flex;
-        flex-direction: column;
-        height: 70%;
-        justify-content: space-around;
-    }
-
-    .div2 label {
-        margin-right: 3vw;
-    }
-
-    .div2 div {
-        margin: 0;
+    .logoDiv{
+        width: 40%;
     }
 }
-
-@media(max-width:500px) {
-    .safety {
-        display: none;
+@media(max-width:600px) {
+    .footer > p{
+        font-size: 1rem;
+    }
+    .logoDiv{
+        width: 70%;
     }
 }

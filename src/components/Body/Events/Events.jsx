@@ -33,8 +33,15 @@ export default function Events() {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          //   className="mySwiper"
         >
+          <SwiperSlide className={classes.slide9}>
+            <div>
+              <p>
+                An Interaction session with Dr Asim Masoom held at video
+                conference room in Main Auditorium BJC
+              </p>
+            </div>
+          </SwiperSlide>
           <SwiperSlide className={classes.slide1}>
             <div>
               <p>

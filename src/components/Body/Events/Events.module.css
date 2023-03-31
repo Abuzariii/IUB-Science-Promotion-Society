@@ -31,7 +31,7 @@
     background-repeat: no-repeat;
     border-radius: 4px;
 }
-.slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div{
+.slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div, .slide9>div{
     background-color: rgb(26, 27, 34);
     color: white;
     display: flex;
@@ -43,7 +43,11 @@
     word-spacing: 2px;
     letter-spacing: 0.1px;
 }
-
+.slide9{
+    background-image: url("../../../images/Events/9.jpg");
+    background-size: 100%;
+    background-position: top;
+}
 .slide1{
     background-image: url("../../../images/Events/2.jpg");
     background-size: 100%;
@@ -107,7 +111,8 @@
     .events>div{
         height: 200px;
     }
-    .slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div{
+    .slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div,
+    .slide9>div{
         text-align: center;
         top: 85%;
         padding: 0 5px;
