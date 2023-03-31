@@ -29,16 +29,19 @@
     width: 70vw;
     height: 500px;
     background-repeat: no-repeat;
+    border-radius: 4px;
 }
 .slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div{
-    background-color: blue;
+    background-color: rgb(26, 27, 34);
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     position: relative;
     top: 90%;
     padding: 10px;
+    word-spacing: 2px;
+    letter-spacing: 0.1px;
 }
 
 .slide1{
@@ -98,11 +101,16 @@
     .events {
         padding-left: 15px;
     }
-
     .events>h1 {
         font-size: 1.8rem;
     }
     .events>div{
-        height: 300px;
+        height: 200px;
+    }
+    .slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div{
+        text-align: center;
+        top: 85%;
+        padding: 0 5px;
+        font-size: 10px;
     }
 }

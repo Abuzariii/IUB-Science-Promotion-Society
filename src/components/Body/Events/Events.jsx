@@ -25,7 +25,7 @@ export default function Events() {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 992500,
+            delay: 2500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -38,14 +38,17 @@ export default function Events() {
           <SwiperSlide className={classes.slide1}>
             <div>
               <p>
-                Inter Socieities Quiz Competition organized by IUBSPS at Ghotvi
-                Hall
+                Inter Socieities Quiz Competition 2023 organized by IUBSPS at
+                Ghotvi Hall, Abbassia Campus
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.slide2}>
             <div>
-              <p>Winner team of Quiz Competition receiving the trophy</p>
+              <p>
+                Winner team of Inter Society Quiz Competition receiving the
+                trophy from the cheif guests
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.slide3}>
@@ -60,7 +63,7 @@ export default function Events() {
             <div>
               <p>
                 Male Cabinet of IUB Science Promotion Society 2022 at the end of
-                the term
+                the term outside Main Auditorium BJC
               </p>
             </div>
           </SwiperSlide>
@@ -68,6 +71,7 @@ export default function Events() {
             <div>
               <p>
                 A walk on breast cancer awareness held at Khawaja Fareed Campus
+                organized by IUBSPS term 2022
               </p>
             </div>
           </SwiperSlide>
@@ -75,13 +79,16 @@ export default function Events() {
             <div>
               <p>
                 Female Cabinet of IUB Science Promotion Society 2022 with then
-                advisor Dr. Qaiser Jabeen
+                advisor Dr. Qaiser Jabeen, outside Kamyaab Jawaan Markaz
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.slide7}>
             <div>
-              <p>An event on research ethics and scientific writing</p>
+              <p>
+                An event on research ethics and scientific writing organized by
+                IUBSPS term 2022
+              </p>
             </div>
           </SwiperSlide>
           <SwiperSlide className={classes.slide8}>
