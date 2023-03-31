@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Cover from "./components/Cover/Cover";
 import CoreTeam from "./components/Body/Core Team/CoreTeam";
 import Executives from "./components/Body/Executive Members/Executives";
+import Events from "./components/Body/Events/Events";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Cover />
       <CoreTeam />
       <Executives />
+      <Events />
       <Footer />
     </Fragment>
   );
