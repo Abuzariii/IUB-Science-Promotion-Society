@@ -6,6 +6,7 @@ import Advisors from "./components/Body/Advisors/Advisors";
 import CoreTeam from "./components/Body/Core Team/CoreTeam";
 import Executives from "./components/Body/Executive Members/Executives";
 import Events from "./components/Body/Events/Events";
+import Volunteers from "./components/Body/Volunteers/Volunteers";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <CoreTeam />
       <Executives />
       <Events />
+      <Volunteers />
       <Footer />
     </Fragment>
   );

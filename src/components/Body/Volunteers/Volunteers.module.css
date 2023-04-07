@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.volunteers {
+    background-color: rgb(50, 54, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 8rem;
+}
+
+.volunteers>h1 {
+    color: white;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-family: 'Mulish', sans-serif;
+    font-size: 3.5rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.volunteers>div {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    width: 70vw;
+    height: 750px;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    background-size: 100%;
+}
+.div1{
+    background-image: url("../../../images/Volunteers/SPS\ 1ST\ POSTER.jpg");
+}
+.div2{
+    background-image: url("../../../images/Volunteers/SPS\ 2ND\ POSTER.jpg");
+}
+
+/* Media Queries */
+@media(max-width:1250px) {
+    .volunteers {
+        padding-left: 1rem;
+    }
+
+    .volunteers>div {
+        width: 90vw;
+        height: 400px;
+    }
+}
+
+@media(max-width:600px) {
+    .volunteers {
+        padding-left: 15px;
+    }
+
+    .volunteers>h1 {
+        font-size: 1.8rem;
+    }
+
+    .volunteers>div {
+        height: 200px;
+    }
+}
