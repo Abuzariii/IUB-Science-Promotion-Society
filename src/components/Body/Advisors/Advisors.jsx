@@ -19,7 +19,7 @@ export default function Advisors() {
         <div className={classes.ct1}>
           <div>
             <h4>Dr Athar Mehboob</h4>
-            <h6>Vice Chancellor The IUB</h6>
+            <h6>Patron in Chief, VC The IUB</h6>
           </div>
         </div>
         <div className={classes.ct2}>
