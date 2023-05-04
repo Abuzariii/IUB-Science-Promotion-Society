@@ -3,8 +3,9 @@
 
 .Cover{
     height: 100vh;
-    background-image: url("https://raw.githubusercontent.com/Abuzariii/IUB-Science-Promotion-Society/main/src/images/cover.jpg");
+    background-image: url("../../images/cover_5.jpg");
     background-size: 100%;
+    background-position: center;
 }
 .logos{
     width: 100%;
@@ -45,9 +46,38 @@
     }
 }
 @media(max-width:1000px) {
+    .Cover{
+        background-image: url("../../images/cover_4.jpg");
+        background-size: 120%;
+    }
     .title{
         left: 5%;
         top: 10%;
         width: 90%;
-    }
+    }    
+}
+@media(max-width:650px) {
+    .Cover{
+        background-size: 140%;
+    }   
+}
+@media(max-width:550px) {
+    .Cover{
+        background-size: 160%;
+    }   
+}
+@media(max-width:450px) {
+    .Cover{
+        background-size: 200%;
+    }   
+}
+@media(max-width:400px) {
+    .Cover{
+        background-size: 240%;
+    }   
+}
+@media(max-width:360px) {
+    .Cover{
+        background-size: 270%;
+    }   
 }

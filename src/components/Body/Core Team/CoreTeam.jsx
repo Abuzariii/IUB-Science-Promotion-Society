@@ -20,7 +20,7 @@ export default function CoreTeam() {
           <div>
             <h4>Ammar Azhar</h4>
             <h5>President</h5>
-            <h6>Dept. of Biochemistry</h6>
+            <h6>Dept. of Biotechnology</h6>
           </div>
         </div>
         <div className={classes.ct2}>

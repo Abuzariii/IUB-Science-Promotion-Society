@@ -1,19 +1,11 @@
 .footer {
-    height: 70vh;
+    height: 40vh;
     width: 100%;
     background-color: rgb(35, 37, 48);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-.logoDiv{
-    background-position: center;
-    width: 20%;
-    height: 30vh;
-    background-image: url("../../images/Logos/fotor.png");
-    background-size: 80%;
-    background-repeat: no-repeat;
 }
 .iconsDiv{
     width: 200px;
@@ -30,16 +22,8 @@
     word-spacing: 1px;
     letter-spacing: 1px;
 }
-@media(max-width:800px) {
-    .logoDiv{
-        width: 40%;
-    }
-}
 @media(max-width:600px) {
     .footer > p{
         font-size: 1rem;
-    }
-    .logoDiv{
-        width: 70%;
     }
 }
