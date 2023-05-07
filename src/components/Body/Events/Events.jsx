@@ -106,6 +106,31 @@ export default function Events() {
               </p>
             </div>
           </SwiperSlide>
+          <SwiperSlide className={classes.slide10}>
+            <div>
+              <p>
+                Speakers and Cabinet members after the first Episode of Science
+                Talk held at Campus Radio
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className={classes.slide11}>
+            <div>
+              <p>
+                Speakers and Cabinet members after the second Episode of Science
+                Talk held at Campus Radio
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className={classes.slide12}>
+            <div>
+              <p>
+                Cabinet members, volunteers, chief guest, judges and
+                participants of Scientific Presentation Competition held at
+                Kamyaab Jawaan Markaz
+              </p>
+            </div>
+          </SwiperSlide>
         </Swiper>
       </motion.div>
     </div>

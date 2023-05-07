@@ -16,6 +16,12 @@ export default function Executives() {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
+        <div className={classes.ct4}>
+          <div>
+            <h4>Moeen Akhtar</h4>
+            <h6>Dept. of Chemistry</h6>
+          </div>
+        </div>
         <div className={classes.ct1}>
           <div>
             <h4>Aiman Bukhari</h4>
@@ -32,12 +38,6 @@ export default function Executives() {
           <div>
             <h4>M. Bilal Khalid</h4>
             <h6>Dept. of Agriculture</h6>
-          </div>
-        </div>
-        <div className={classes.ct4}>
-          <div>
-            <h4>Moeen Akhtar</h4>
-            <h6>Dept. of Chemistry</h6>
           </div>
         </div>
         <div className={classes.ct5}>
