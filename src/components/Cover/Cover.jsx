@@ -8,13 +8,15 @@ export default function Cover() {
     <div className={classes.Cover}>
       <div className={classes.logos}>
         <img
-          src="https://raw.githubusercontent.com/Abuzariii/IUB-Science-Promotion-Society/main/src/images/Logos/20211107_224308.png"
+          // src="https://raw.githubusercontent.com/Abuzariii/IUB-Science-Promotion-Society/main/src/images/Logos/20211107_224308-min.png"
+          src={require("../../images/Logos/20211107_224308-min.png")}
           alt="iub"
           className={classes.l1}
         />
         <NavBar />
         <img
-          src="https://raw.githubusercontent.com/Abuzariii/IUB-Science-Promotion-Society/main/src/images/Logos/20220619_131741.png"
+          // src="https://github.com/Abuzariii/IUB-Science-Promotion-Society/blob/main/src/images/Logos/20220619_131741-min.png?raw=true"
+          src={require("../../images/Logos/20220619_131741-min.png")}
           alt="directorate-of-student-affairs"
           className={classes.l1}
         />
