@@ -127,7 +127,7 @@
         height: 200px;
     }
     .slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div,
-    .slide9>div{
+    .slide9>div, .slide10>div, .slide11>div, .slide12>div{
         text-align: center;
         top: 85%;
         padding: 0 5px;
