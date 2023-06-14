@@ -15,7 +15,8 @@ export default function Articles() {
         />
         <meta name="theme-color" content="#008f68" />
       </Helmet>
-      <h1>Read our Articles </h1>
+      {/* <h1>Read our Articles </h1> */}
+      <h1>Sample Articles, new ones will be added soon </h1>
       <br />
       <h5>Want to write for us? Click the link 👇</h5>
       <p>
