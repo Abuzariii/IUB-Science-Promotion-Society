@@ -21,11 +21,11 @@ export default function Articles() {
       <p>
         🔗{" "}
         <a
-          href="https://devhackclub.netlify.app/joiningform/"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfRb0uxC3owztubsZX5juJ_sDtGWX9w9mvWlDL8MWEE2gOZFQ/viewform?usp=sf_link"
           target="_blank"
           rel="noreferrer"
         >
-          https://devhackclub.netlify.app
+          https://docs.google.com/forms/
         </a>{" "}
       </p>
       <div className={classes.container}>
