@@ -2,6 +2,7 @@ import classes from "./Cover.module.css";
 import NavBar from "./Navbar/Navbar";
 import { motion } from "framer-motion";
 import TypeWriterEffect from "react-typewriter-effect";
+import { Link } from "react-router-dom";
 
 export default function Cover() {
   return (
@@ -34,24 +35,29 @@ export default function Cover() {
 
         <br />
         <br />
-        <TypeWriterEffect
-          textStyle={{
-            color: "white",
-            fontSize: "1.5em",
-            letterSpacing: "1px",
-            wordSpacing: "2px",
-            fontFamily: "'Sanchez', serif",
-          }}
-          startDelay={2000}
-          cursorColor="#3F3D56"
-          multiText={[
-            "Embrace Scientific Literacy Today...",
-            "Promote Science and Create Impact",
-            "Join the most accomplished society on your campus...",
-          ]}
-          multiTextDelay={1000}
-          typeSpeed={30}
-        />
+        <div style={{ height: "70px" }}>
+          <TypeWriterEffect
+            textStyle={{
+              color: "white",
+              fontSize: "1.5em",
+              letterSpacing: "1px",
+              wordSpacing: "2px",
+              fontFamily: "'Sanchez', serif",
+            }}
+            startDelay={2000}
+            cursorColor="#3F3D56"
+            multiText={[
+              "Embrace Scientific Literacy Today...",
+              "Promote Science and Create Impact",
+              "Join the most accomplished society on your campus...",
+            ]}
+            multiTextDelay={1000}
+            typeSpeed={30}
+          />
+        </div>
+        <button className={classes.article}>
+          <Link to={"/articles"}>Read Our Articles</Link>
+        </button>
       </div>
     </div>
   );

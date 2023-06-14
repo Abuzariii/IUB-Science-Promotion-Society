@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 
 .Cover{
     height: 100vh;
@@ -28,6 +29,32 @@
     font-family: 'Kelly Slab', cursive;
     font-size: 4rem;
     letter-spacing: 2px;
+}
+.article{
+    left: 25%;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255, 0.8);
+    
+}
+.article > *{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.article > *:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.article:hover{
+    background-color: rgb(158, 151, 151);
+    transition: 0.3s;
 }
 
 
