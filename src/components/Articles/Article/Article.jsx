@@ -9,6 +9,8 @@ import {
 import Footer from "../../Footer/Footer";
 import data from "../data.json";
 import classes from "./Article.module.css";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 
 export default function Article() {
   const { id } = useParams();
@@ -26,11 +28,28 @@ export default function Article() {
         />
         <meta name="theme-color" content="#008f68" />
       </Helmet>
+      <Navbar
+        className="bg-body-tertiary"
+        bg="light"
+        style={{ width: "100%" }}
+        data-bs-theme="dark"
+      >
+        <Container>
+          <Navbar.Brand href="https://iub-science-promotion-society.vercel.app">
+            Home IUBSPS
+          </Navbar.Brand>
+          <Navbar.Toggle />
+          <Navbar.Brand href="https://iub-science-promotion-society.vercel.app/articles">
+            All Articles
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
       <div className={classes.container}>
         <h1>{targetObject.title}</h1>
         <div className={classes.writer}>
           <h4>{targetObject.name}</h4>
           <h5>{targetObject.department}</h5>
+          <h5>{targetObject.university}</h5>
         </div>
 
         {paragraphs.map((paragraph, index) => (
