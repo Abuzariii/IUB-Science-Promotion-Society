@@ -3,8 +3,22 @@ import data from "./data.json";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 
 export default function Articles() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src =
+      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5578163735579066";
+    script.crossOrigin = "anonymous";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className={classes.mainDiv}>
       <Helmet>
