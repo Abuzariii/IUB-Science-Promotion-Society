@@ -3,22 +3,8 @@ import data from "./data.json";
 import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import { Helmet } from "react-helmet";
-import { useEffect } from "react";
 
 export default function Articles() {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src =
-      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5578163735579066";
-    script.crossOrigin = "anonymous";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <div className={classes.mainDiv}>
       <Helmet>
@@ -29,8 +15,7 @@ export default function Articles() {
         />
         <meta name="theme-color" content="#008f68" />
       </Helmet>
-      {/* <h1>Read our Articles </h1> */}
-      <h1>Sample Articles, new ones will be added soon </h1>
+      <h1>Read our Articles Below</h1>
       <br />
       <h5>Want to write for us? Click the link 👇</h5>
       <p>
@@ -51,7 +36,7 @@ export default function Articles() {
               <h5 className={classes.depart} style={{ marginBottom: "-10px" }}>
                 {item.name}
               </h5>
-              <h5 className={classes.depart}> {item.department} 6th</h5>
+              <h5 className={classes.depart}> {item.department}</h5>
             </div>
           </Link>
         ))}
