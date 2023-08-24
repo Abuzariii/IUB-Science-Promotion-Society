@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
+.events
+    background-color: rgb(35, 37, 48)
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding-left: 20px
+    padding-bottom: 8rem
+
+    &>h1
+        color: white
+        margin-top: 5rem
+        margin-bottom: 3rem
+        font-family: 'Mulish', sans-serif
+        font-size: 3.5rem
+        word-spacing: 5px
+        letter-spacing: 2px
+
+    &>div
+        height: 25rem
+        display: flex
+        justify-content: center
+        overflow-x: auto
+        width: 70vw
+        height: 500px
+        background-repeat: no-repeat
+        border-radius: 4px
+
+.slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div, .slide9>div, .slide10>div, .slide11>div, .slide12>div
+    background-color: rgb(26, 27, 34)
+    color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    top: 92.3%
+    padding: 10px
+    word-spacing: 2px
+    letter-spacing: 0.1px
+
+.slide9
+    background-image: url("/Events/9.jpg")
+    background-size: 100%
+    background-position: top
+
+.slide1
+    background-image: url("/Events/2.jpg")
+    background-size: 100%
+    background-position: top
+
+.slide2
+    background-image: url("/Events/1.jpg")
+    background-size: 100%
+    background-position: center
+
+.slide3
+    background-image: url("/Events/3.jpg")
+    background-size: 100%
+    background-position: top
+
+.slide4
+    background-image: url("/Events/4.jpg")
+    background-size: 90%
+    background-position: center
+
+.slide5
+    background-image: url("/Events/5.jpg")
+    background-size: 100%
+    background-position: center
+
+.slide6
+    background-image: url("/Events/6.jpg")
+    background-size: 100%
+    background-position: center
+
+.slide7
+    background-image: url("/Events/7.jpg")
+    background-size: 100%
+    background-position: center
+
+.slide8
+    background-image: url("/Events/8.jpg")
+    background-size: 100%
+    background-position: center
+
+.slide10
+    background-image: url("/Events/10.jpg")
+    background-size: 100%
+    background-position: center
+
+.slide11
+    background-image: url("/Events/11.jpg")
+    background-size: 100%
+    background-position: center
+
+.slide12
+    background-image: url("/Events/12.jpg")
+    background-size: 100%
+    background-position: right
+
+/* Media Queries */
+@media(max-width:1250px)
+    .events
+        padding-left: 1rem
+
+    .events>div
+        width: 90vw
+        height: 400px
+
+@media(max-width:600px)
+    .events
+        padding-left: 15px
+
+    .events >h1
+        font-size: 1.8rem
+
+    .events >div
+        height: 200px
+
+    .slide1 > div, .slide2 > div, .slide3>div, .slide4>div, .slide4>div, .slide5>div, .slide6>div, .slide7>div, .slide8>div,
+    .slide9>div, .slide10>div, .slide11>div, .slide12>div
+        text-align: center
+        top: 88%
+        padding: 0 5px
+        font-size: 10px

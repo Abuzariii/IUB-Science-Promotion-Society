@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
+.advisors
+    background-color: rgb(50, 54, 71)
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding-left: 20px
+    padding-bottom: 8rem
+
+    & >h1
+        color: white
+        margin-top: 5rem
+        margin-bottom: 3rem
+        font-family: 'Mulish', sans-serif
+        font-size: 3.5rem
+        word-spacing: 5px
+        letter-spacing: 2px
+
+    & >div
+        height: 25rem
+        display: flex
+        overflow-x: auto
+        width: 97vw
+
+    & >div::-webkit-scrollbar
+        width: 0
+        height: 0
+
+    & >div>div
+        min-width: 20rem
+        height: 20rem
+        background-color: rgb(255, 255, 255)
+        margin-right: 3rem
+        display: flex
+        flex-direction: column
+        align-items: center
+        transition: opacity 0.3s ease-in-out
+
+    &>div>div:hover
+        cursor: pointer
+
+    &>div>div>div
+        background-color: rgb(26, 27, 34)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 75%
+        position: relative
+        top: 90%
+        color: white
+        font-family: 'Open Sans', sans-serif
+        padding-top: 10px
+        padding-bottom: 10px
+        border-radius: 6px
+
+    &>div>div>div>h6
+        color: rgb(123, 123, 126)
+
+.ct1
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/athar.jpeg")
+    background-size: 120%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct2
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/rizwan.jpg")
+    background-size: 100%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct3
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/azhar.jpeg")
+    background-size: 120%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct4
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/Maqsood.jpg")
+    background-size: 110%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct5
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/raza.jpg")
+    background-size: 120%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct6
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/sajjad.jpg")
+    background-size: 120%
+    background-position: right
+    background-repeat: no-repeat
+
+.ct7
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/ramzan.jpg")
+    background-size: 100%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct8
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/bushra.jpg")
+    background-size: 100%
+    background-position: center
+    background-repeat: no-repeat
+
+.ct9
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("../../../../public/Advisors/aqsa.png")
+    background-size: 110%
+    background-position: top
+    background-repeat: no-repeat
+
+/* Media Queries */
+@media(max-width:1250px)
+    .advisors
+        padding-left: 1rem
+
+@media(max-width:600px)
+    .advisors
+        padding-left: 15px
+
+    .advisors >h1
+        font-size: 1.8rem
+
+    .advisors >div>div
+        margin-right: 1rem

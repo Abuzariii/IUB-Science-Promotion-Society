@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
+.coreTeam
+    background-color: rgb(35, 37, 48)
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding-left: 20px
+    padding-bottom: 8rem
+
+    & >h1
+        color: white
+        margin-top: 5rem
+        margin-bottom: 3rem
+        font-family: 'Mulish', sans-serif
+        font-size: 3.5rem
+        word-spacing: 5px
+        letter-spacing: 2px
+
+    & >div
+        height: 25rem
+        display: flex
+        overflow-x: auto
+        width: 97vw
+
+    & >div::-webkit-scrollbar
+        width: 0
+        height: 0
+
+    & >div>div
+        min-width: 18rem
+        height: 20rem
+        background-color: rgb(255, 255, 255)
+        margin-right: 3rem
+        display: flex
+        flex-direction: column
+        align-items: center
+        transition: opacity 0.3s ease-in-out
+
+    &>div>div:hover
+        cursor: pointer
+
+    &>div>div>div
+        background-color: rgb(26, 27, 34)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 75%
+        position: relative
+        top: 85%
+        color: white
+        font-family: 'Open Sans', sans-serif
+        padding: 5px
+        border-radius: 6px
+
+    &>div>div>div>h6
+        color: rgb(123, 123, 126)
+
+.ct1
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/ammar.jpg")
+    background-size: 120%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct2
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/umar.jpg")
+    background-size: 100%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct3
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/atif.jpg")
+    background-size: 120%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct4
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/iman.jpg")
+    background-size: 100%
+    background-position: center
+    background-repeat: no-repeat
+
+.ct5
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/abuzar.jpg")
+    background-size: 130%
+    background-position: center top
+    background-repeat: no-repeat
+
+.ct6
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/rashid.jpg")
+    background-size: 100%
+    background-position: center
+    background-repeat: no-repeat
+
+.ct7
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/shaiza.jpg")
+    background-size: 120%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct8
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/bakh.jpg")
+    background-size: 120%
+    background-position: top
+    background-repeat: no-repeat
+
+.ct9
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(0, 0, 0)), url("/Cabinet/humna.jpg")
+    background-size: 100%
+    background-position: top
+    background-repeat: no-repeat
+
+/* Media Queries */
+@media(max-width:1250px)
+    .coreTeam
+        padding-left: 1rem
+
+@media(max-width:600px)
+    .coreTeam
+        padding-left: 15px
+
+    .coreTeam >h1
+        font-size: 1.8rem
+
+    .coreTeam >div>div
+        margin-right: 1rem
